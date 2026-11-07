@@ -1,1 +1,1 @@
-Welcome
+![](https://github.com/primo-ideas/primo-ideas/blob/dede680c714b81cfdd8ff05c68c253f224acfd38/dronoids.png)![](https://github.com/primo-ideas/primo-ideas/blob/dede680c714b81cfdd8ff05c68c253f224acfd38/space-race.png)![](https://github.com/primo-ideas/primo-ideas/blob/dede680c714b81cfdd8ff05c68c253f224acfd38/wow-trading.png)![](https://github.com/primo-ideas/primo-ideas/blob/dede680c714b81cfdd8ff05c68c253f224acfd38/trading-book.png)
