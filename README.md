@@ -1,15 +1,15 @@
 [Test Dronoids](https://primo-ideas.xyz/dronoids/)
 
-![](https://github.com/primo-ideas/primo-ideas/blob/dede680c714b81cfdd8ff05c68c253f224acfd38/dronoids.png)
+![](https://github.com/primo-ideas/primo-ideas/blob/main/dronoids.png)
 
 [Test Space Race](https://primo-ideas.xyz/space-race/)
 
-![](https://github.com/primo-ideas/primo-ideas/blob/dede680c714b81cfdd8ff05c68c253f224acfd38/space-race.png)
+![](https://github.com/primo-ideas/primo-ideas/blob/main/space-race.png)
 
 [Test WoW Trading](https://wow-trading.live/)
 
-![](https://github.com/primo-ideas/primo-ideas/blob/dede680c714b81cfdd8ff05c68c253f224acfd38/wow-trading.png)
+![](https://github.com/primo-ideas/primo-ideas/blob/main/wow-trading.png)
 
 [Test Trading Book](https://www.curseforge.com/wow/addons/trading-book)
 
-![](https://github.com/primo-ideas/primo-ideas/blob/dede680c714b81cfdd8ff05c68c253f224acfd38/trading-book.png)
+![](https://github.com/primo-ideas/primo-ideas/blob/main/trading-book.png)
