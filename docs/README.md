@@ -1,6 +1,7 @@
 # Primo Ideas showcase: maintenance
 
-This repo only holds the showcase of the Primo Ideas projects. It has no code, build or CI of its own.
+This repo only holds the showcase of the Primo Ideas projects, and the script that records the
+game clips. It has no build or CI of its own.
 
 ## What lives where
 
@@ -8,8 +9,10 @@ This repo only holds the showcase of the Primo Ideas projects. It has no code, b
 | :-- | :-- |
 | `README.md` (this repo) | Project table with links, sources and CI badges, then one section per project with its screenshot. |
 | `*.png` (this repo) | One screenshot per project, named after the project (`star-racer.png`, `dronoids.png`, `ludeal.png`, `trading-book.png`). |
-| `/var/www/html/index.html` on primo-ideas.xyz | The site's landing page: one card per project, with a screenshot, tags and a link. |
-| `/var/www/html/assets/*.webp` on primo-ideas.xyz | The landing page's screenshots: the PNGs of this repo, scaled to 960 px wide and saved as WebP (quality 80). |
+| `/var/www/html/index.html` on primo-ideas.xyz | The site's landing page: one card per project, with a clip or a screenshot, tags and a link. Four cards in a row from 1180 px wide (a 1366 px laptop shows them all without scrolling), two below that, one on a phone. |
+| `/var/www/html/assets/star-racer.mp4`, `dronoids.mp4` on primo-ideas.xyz | 10 s looping clips of the two games, with their first frame as a WebP poster. How they were recorded: [clips.md](clips.md). |
+| `/var/www/html/assets/ludeal.webp`, `trading-book.webp` on primo-ideas.xyz | The other two cards' screenshots: the PNGs of this repo, scaled to 960 px wide and saved as WebP (quality 80). |
+| `tools/record-window.ps1` (this repo) | Records one window to MP4, for the clips ([clips.md](clips.md)). |
 | `/var/www/html/favicon.png` on primo-ideas.xyz | The site icon, shared by every page under it. |
 
 ## Project names and URLs
