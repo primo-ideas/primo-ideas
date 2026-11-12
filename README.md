@@ -37,7 +37,7 @@ Online multiplayer racing through neon cities, up to 8 players per race, right i
 
 [![CI](https://github.com/primo-ideas/dronoids/actions/workflows/ci.yml/badge.svg)](https://github.com/primo-ideas/dronoids/actions/workflows/ci.yml)
 
-A shared, persistent space sector: program your drone swarms in a tiny assembly language, build factories and colonies, and hold your corner of space.
+A shared, persistent space sector: program your dronoids in a tiny assembly language, grow a central base whose production lines build them, loot relics far out for perks, and hold your corner of space. An account (nickname and password) is needed to play.
 
 **[▶ Play Dronoids](https://primo-ideas.xyz/dronoids/)**
 
