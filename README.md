@@ -4,30 +4,22 @@
 
 Games and tools, built for fun and shipped for real.
 
-[Dronoids](#dronoids) · [Space Race](#space-race) · [WoW Trading](#wow-trading) · [Trading Book](#trading-book)
+**[primo-ideas.xyz](https://primo-ideas.xyz/)**
+
+[Star Racer](#star-racer) · [Dronoids](#dronoids) · [Ludeal](#ludeal) · [Trading Book](#trading-book)
 
 </div>
 
 | Project | Play / use it | Source | CI |
 | :-- | :-- | :-- | :-- |
+| **Star Racer** | [primo-ideas.xyz/star-racer](https://primo-ideas.xyz/star-racer/) | [star-racer](https://github.com/primo-ideas/star-racer) | [![Test server](https://github.com/primo-ideas/star-racer/actions/workflows/test-server.yml/badge.svg)](https://github.com/primo-ideas/star-racer/actions/workflows/test-server.yml) |
 | **Dronoids** | [primo-ideas.xyz/dronoids](https://primo-ideas.xyz/dronoids/) | [dronoids](https://github.com/primo-ideas/dronoids) | [![CI](https://github.com/primo-ideas/dronoids/actions/workflows/ci.yml/badge.svg)](https://github.com/primo-ideas/dronoids/actions/workflows/ci.yml) |
-| **Space Race** | [primo-ideas.xyz/space-race](https://primo-ideas.xyz/space-race/) | [star-racer](https://github.com/primo-ideas/star-racer) | [![Test server](https://github.com/primo-ideas/star-racer/actions/workflows/test-server.yml/badge.svg)](https://github.com/primo-ideas/star-racer/actions/workflows/test-server.yml) |
-| **WoW Trading** | [wow-trading.live](https://wow-trading.live/) | [wow-trading](https://github.com/primo-ideas/wow-trading) | [![CI](https://github.com/primo-ideas/wow-trading/actions/workflows/ci.yml/badge.svg)](https://github.com/primo-ideas/wow-trading/actions/workflows/ci.yml) |
+| **Ludeal** | [primo-ideas.xyz/ludeal](https://primo-ideas.xyz/ludeal/) | [wow-trading](https://github.com/primo-ideas/wow-trading) | [![CI](https://github.com/primo-ideas/wow-trading/actions/workflows/ci.yml/badge.svg)](https://github.com/primo-ideas/wow-trading/actions/workflows/ci.yml) |
 | **Trading Book** | [CurseForge](https://www.curseforge.com/wow/addons/trading-book) | [trading-book](https://github.com/primo-ideas/trading-book) | [![CI](https://github.com/primo-ideas/trading-book/actions/workflows/ci.yml/badge.svg)](https://github.com/primo-ideas/trading-book/actions/workflows/ci.yml) |
 
 ---
 
-## Dronoids
-
-[![CI](https://github.com/primo-ideas/dronoids/actions/workflows/ci.yml/badge.svg)](https://github.com/primo-ideas/dronoids/actions/workflows/ci.yml)
-
-Program your drone swarms, build factories and colonies, and hold your corner of space.
-
-**[▶ Play Dronoids](https://primo-ideas.xyz/dronoids/)**
-
-[![Dronoids screenshot](dronoids.png)](https://primo-ideas.xyz/dronoids/)
-
-## Space Race
+## Star Racer
 
 [![Test server](https://github.com/primo-ideas/star-racer/actions/workflows/test-server.yml/badge.svg)](https://github.com/primo-ideas/star-racer/actions/workflows/test-server.yml)
 [![Build server](https://github.com/primo-ideas/star-racer/actions/workflows/build-server.yml/badge.svg)](https://github.com/primo-ideas/star-racer/actions/workflows/build-server.yml)
@@ -37,19 +29,29 @@ Program your drone swarms, build factories and colonies, and hold your corner of
 
 Online multiplayer racing through neon cities, up to 8 players per race, right in the browser.
 
-**[▶ Play Space Race](https://primo-ideas.xyz/space-race/)**
+**[▶ Play Star Racer](https://primo-ideas.xyz/star-racer/)**
 
-[![Space Race screenshot](space-race.png)](https://primo-ideas.xyz/space-race/)
+[![Star Racer screenshot](star-racer.png)](https://primo-ideas.xyz/star-racer/)
 
-## WoW Trading
+## Dronoids
+
+[![CI](https://github.com/primo-ideas/dronoids/actions/workflows/ci.yml/badge.svg)](https://github.com/primo-ideas/dronoids/actions/workflows/ci.yml)
+
+A shared, persistent space sector: program your drone swarms in a tiny assembly language, build factories and colonies, and hold your corner of space.
+
+**[▶ Play Dronoids](https://primo-ideas.xyz/dronoids/)**
+
+[![Dronoids screenshot](dronoids.png)](https://primo-ideas.xyz/dronoids/)
+
+## Ludeal
 
 [![CI](https://github.com/primo-ideas/wow-trading/actions/workflows/ci.yml/badge.svg)](https://github.com/primo-ideas/wow-trading/actions/workflows/ci.yml)
 
-Auction house tracker for World of Warcraft: biggest rises and falls, most traded items, deals and a watchlist, per realm.
+What things sell for in games: prices, trends and estimated sales. World of Warcraft first, with the biggest rises and falls, most traded items, deals and a watchlist, per realm.
 
-**[↗ Open WoW Trading](https://wow-trading.live/)**
+**[↗ Open Ludeal](https://primo-ideas.xyz/ludeal/)**
 
-[![WoW Trading screenshot](wow-trading.png)](https://wow-trading.live/)
+[![Ludeal screenshot](ludeal.png)](https://primo-ideas.xyz/ludeal/)
 
 ## Trading Book
 
