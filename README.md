@@ -6,7 +6,7 @@ Games and tools, built for fun and shipped for real.
 
 **[primo-ideas.xyz](https://primo-ideas.xyz/)**
 
-[Star Racer](#star-racer) · [Dronoids](#dronoids) · [Play Deals](#play-deals) · [Trading Book](#trading-book)
+[Star Racer](#star-racer) · [Dronoids](#dronoids) · [Play Deals](#play-deals) · [Trading Book](#trading-book) · [Mythic Essentials](#mythic-essentials)
 
 </div>
 
@@ -16,6 +16,7 @@ Games and tools, built for fun and shipped for real.
 | **Dronoids** | [primo-ideas.xyz/dronoids](https://primo-ideas.xyz/dronoids/) | [dronoids](https://github.com/primo-ideas/dronoids) | [![CI](https://github.com/primo-ideas/dronoids/actions/workflows/ci.yml/badge.svg)](https://github.com/primo-ideas/dronoids/actions/workflows/ci.yml) |
 | **Play Deals** | [primo-ideas.xyz/playdeals](https://primo-ideas.xyz/playdeals/) | [playdeals-io](https://github.com/primo-ideas/playdeals-io) | [![CI](https://github.com/primo-ideas/playdeals-io/actions/workflows/ci.yml/badge.svg)](https://github.com/primo-ideas/playdeals-io/actions/workflows/ci.yml) |
 | **Trading Book** | [CurseForge](https://www.curseforge.com/wow/addons/trading-book) | [trading-book](https://github.com/primo-ideas/trading-book) | [![CI](https://github.com/primo-ideas/trading-book/actions/workflows/ci.yml/badge.svg)](https://github.com/primo-ideas/trading-book/actions/workflows/ci.yml) |
+| **Mythic Essentials** | [GitHub releases](https://github.com/primo-ideas/mythic-essentials/releases/latest) | [mythic-essentials](https://github.com/primo-ideas/mythic-essentials) | [![CI](https://github.com/primo-ideas/mythic-essentials/actions/workflows/ci.yml/badge.svg)](https://github.com/primo-ideas/mythic-essentials/actions/workflows/ci.yml) |
 
 ---
 
@@ -62,3 +63,13 @@ World of Warcraft addon that inventories your stock across bags, bank, warband b
 **[↗ Get Trading Book on CurseForge](https://www.curseforge.com/wow/addons/trading-book)**
 
 [![Trading Book screenshot](trading-book.png)](https://www.curseforge.com/wow/addons/trading-book)
+
+## Mythic Essentials
+
+[![CI](https://github.com/primo-ideas/mythic-essentials/actions/workflows/ci.yml/badge.svg)](https://github.com/primo-ideas/mythic-essentials/actions/workflows/ci.yml)
+
+World of Warcraft addon that puts the Mythic+ essentials in one small, clean panel: a DPS meter in class colors with kicks, dispels and deaths, a key timer bar split by chest tier, enemy forces, remaining bosses, and who is missing food, flask or class buffs.
+
+**[↗ Get Mythic Essentials on GitHub](https://github.com/primo-ideas/mythic-essentials/releases/latest)**
+
+[![Mythic Essentials screenshot](mythic-essentials.png)](https://github.com/primo-ideas/mythic-essentials/releases/latest)
