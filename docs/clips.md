@@ -21,25 +21,27 @@ production servers or the shared Dronoids world.
 
 ## Dronoids
 
-In `~/repos/dronoids`, after `cargo build --release`. Offline sector, the first factory placed
-automatically, 40 minutes fast-forwarded, then scripted clicks build six more factories around
-it (the Factory button, then a spot), set the speed to x4 (two clicks on x1) and deselect (a
-click on empty space). Launch it from Git Bash: started by PowerShell's `Start-Process`, the
-game ignored the building clicks.
+Re-recorded on 2026-11-12 once Dronoids had one central base instead of factories (the first
+clip, with factories, is kept on the server as `dronoids.mp4.bak-factories` and
+`dronoids.webp.bak-factories`).
+
+In `~/repos/dronoids`, after `cargo build --release`. Offline sector, seed 3 (asteroids and
+crystal fields around the base), the base landed automatically with some of every perk
+(`--perks`), 2 minutes fast-forwarded, then scripted clicks set the speed to x4 (two clicks on
+x1) and deselect the base (a click on empty space). Launch it from Git Bash: started by
+PowerShell's `Start-Process`, the game ignored scripted clicks.
 
 ```bash
-C=""; f=30; for xy in 380,190 780,190 330,430 820,440 576,120 576,530; do C="$C --click 422,620@$f --click $xy@$((f+10))"; f=$((f+30)); done
-```
-
-```bash
-./target/release/dronoids.exe --offline normal --ais 6 --seed 7 --land --bonuses --ticks 2400 --size 1152,648 $C --click 1040,22@300 --click 1040,22@310 --click 1000,590@330 &
+./target/release/dronoids.exe --offline normal --ais 6 --seed 3 --land --perks --ticks 500 --zoom 16 --size 1152,648 --click 1040,22@30 --click 1040,22@40 --click 1000,590@60 &
 ```
 
 ```bash
 pwsh -NoProfile -File ~/repos/primo-ideas/tools/record-window.ps1 -Exe attach:dronoids -Out dronoids-raw.mp4 -Seconds 18 -Warmup 12
 ```
 
-`--screenshot out.png --after 25` instead of the recording shows the framing first.
+`--screenshot out.png --after 20` instead of the recording shows the framing first. The
+screenshot in this repo (`dronoids.png`, 1366x600) is the same run with `--size 1366,600`,
+the clicks at `1250,22` (twice) and `1200,560`, and `--screenshot dronoids.png --after 22`.
 
 ## Star Racer
 
@@ -78,8 +80,8 @@ starting lights come on (34.4 s into that recording) and runs through the launch
 
 `$F` is the ffmpeg path. The clip takes `L` seconds from `S`, and its last `D` seconds fade into
 its first frame, so the loop has no jump. Star Racer: `S=34.4 L=10 D=0.6`, scaled to 960x540,
-CRF 27. Dronoids: `S=1.0 L=10 D=0.8`, cropped to the colony (`crop=820:512:140:80`), scaled to
-800x500, CRF 25.
+CRF 27. Dronoids: `S=1.0 L=10 D=0.8`, cropped around the base (`crop=820:512:166:67`), scaled
+to 800x500, CRF 25.
 
 ```bash
 "$F" -y -i star-racer-raw.mp4 -filter_complex "[0:v]trim=start=34.4:duration=10.6,setpts=PTS-STARTPTS,scale=960:540:flags=lanczos,setsar=1,split[a][b];[a]trim=start=0.6,setpts=PTS-STARTPTS[m];[b]trim=duration=0.6,setpts=PTS-STARTPTS[h];[m][h]xfade=transition=fade:duration=0.6:offset=9.4,format=yuv420p[v]" -map "[v]" -an -c:v libx264 -profile:v high -preset slow -crf 27 -r 30 -movflags +faststart star-racer.mp4
