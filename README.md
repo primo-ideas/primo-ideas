@@ -48,7 +48,7 @@ A shared, persistent space sector: program your dronoids in a tiny assembly lang
 
 [![CI](https://github.com/primo-ideas/playdeals-io/actions/workflows/ci.yml/badge.svg)](https://github.com/primo-ideas/playdeals-io/actions/workflows/ci.yml)
 
-What things sell for in games: prices, trends and estimated sales. World of Warcraft first, with the biggest rises and falls, most traded items, deals and a watchlist, per realm.
+What things sell for in games: prices, trends and estimated sales. World of Warcraft first, on today's realms and on Mists of Pandaria Classic, with the biggest rises and falls, most traded items, deals and a watchlist, per realm.
 
 **[↗ Open Play Deals](https://primo-ideas.xyz/playdeals/)**
 
